@@ -14,7 +14,9 @@
 ## 주의 할 점
 1. node module은 뺐으므로 설치 필요.
 2. .env 파일을 제외시킨 점.
-3. coolsms, nodemailer 사용
+
+## coolsms, nodemailer 사용
+
 // .env
 SMS_KEY = 
 SMS_SECRET = 
