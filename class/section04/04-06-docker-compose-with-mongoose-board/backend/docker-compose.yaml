@@ -1,0 +1,26 @@
+version: '3.7'
+
+# 컴퓨터들
+services:
+
+  # 컴퓨터이름
+  my-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 4000:4000
+
+  # 컴퓨터이름
+  my-database:
+    image: mongo:5
+    ports:
+      - 27017:27017
+
+# `docker-compose.yaml` 파일은 `version`, `services`, `volumes`, `networks` 를 정의합니다.
+
+# 여기서 우리는 먼저 `services`만 정의해 보겠습니다.
+
+# `docker-compose.yaml` 파일은 `version`, `services`, `volumes`, `networks` 를 정의합니다.
+
+# 여기서 우리는 먼저 `services`만 정의해 보겠습니다.
