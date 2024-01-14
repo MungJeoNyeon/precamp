@@ -15,9 +15,8 @@
 1. 
 2. .env 파일을 제외시킨 점.
 
-## coolsms, nodemailer 사용
-
-// .env
+## // .env
+## coolsms, nodemailer 사용 
 SMS_KEY = 
 SMS_SECRET = 
 SMS_SENDER = 
