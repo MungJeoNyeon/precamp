@@ -8,11 +8,11 @@
 </div>
 
 ## 참고
-1. yarn init
+1. yarn init -> node_modules
 2. package.json 확인할 것
 
 ## 주의 할 점
-1. node module은 뺐으므로 설치 필요.
+1. 
 2. .env 파일을 제외시킨 점.
 
 ## coolsms, nodemailer 사용
@@ -25,3 +25,7 @@ SMS_SENDER =
 EMAIL_PASS = 
 EMAIL_SENDER = 
 EMAIL_USER = 
+
+## DB 선택
+참고 : https://donghunee.github.io/study/2019/09/07/etc/
+## mongo, mongoose 사용
