@@ -1,6 +1,6 @@
 import { getToday } from "./util.js";
 import nodemailer from "nodemailer";
-import "dotenv/config";
+import "dotenv/config.js";
 
 export function checkEmail(myemail) {
   if (myemail === undefined || myemail.includes("@") === false) {
