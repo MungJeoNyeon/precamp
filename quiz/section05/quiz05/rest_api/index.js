@@ -43,7 +43,7 @@ app.listen(3000, () => {
     ( Rest-API에 관한 소스 코드는 rest_api 폴더 내에 있습니다.)
     
     1. createTokenOfPhone API 요청에 대한 데이터 타입을 지정해 주세요.
-    2. 임의의 휴대폰 번호로 createTokenOfPhone API를 요청하면 랜덤한 4자리 숫자의 인증번호를 받을 수 있도록 `index.js` 파일에 `createTokenOfPhone` 함수를 완성해 주세요.
+    2. 임의의 휴대폰 번호로 createTokenOfPhone API를 요청하면 랜덤한 4자리 숫자의 인증번호를 받을 수 있도록 `home.js` 파일에 `createTokenOfPhone` 함수를 완성해 주세요.
     3. Apollo 서버를 실행시켜, GraphQL API를 요청해 “인증 완료” 응답을 받아 주세요.
     4. VS code Terminal 창에 나타나는 console 을 확인하고 캡처해 주세요.
 */

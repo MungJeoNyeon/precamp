@@ -4,7 +4,7 @@
 FROM node:14
 
 # 2. 내 컴퓨터에 있는 폴더나 파일을 도커 컴퓨터 안으로 복사하기
-COPY ./index.js /index.js
+COPY ./index.js /home.js
 
-# 3. 도커안에서 index.js 실행시키기
-CMD node index.js
+# 3. 도커안에서 home.js 실행시키기
+CMD node home.js

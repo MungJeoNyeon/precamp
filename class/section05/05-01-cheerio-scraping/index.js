@@ -1,4 +1,4 @@
-//index.js
+//home.js
 
 import axios from "axios";
 import cheerio from "cheerio";

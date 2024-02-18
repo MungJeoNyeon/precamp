@@ -1,4 +1,4 @@
-// index.js
+// home.js
 
 class Monster {
     power = 10

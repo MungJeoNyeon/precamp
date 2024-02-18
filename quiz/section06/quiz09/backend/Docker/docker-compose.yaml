@@ -4,15 +4,17 @@ version: '3.7'
 services:
 
   # 컴퓨터이름
-  my-backend:
+  app:
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: ../
+      dockerfile: Docker/Dockerfile
     ports:
       - 4000:4000
 
   # 컴퓨터이름
-  my-database:
-    image: mongo:quiz09
+  db:
+    image: mongo:5
     ports:
       - 27017:27017
+
+# ports 운영환경에서는 데이터베이스를 직접 노출하지 않는 네트워크 설정 필요

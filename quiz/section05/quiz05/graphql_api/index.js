@@ -47,7 +47,7 @@ const resolvers = {
     createTokenOfPhone: (_, { phoneNum }) => {
       // 2. 아래 로직을 만들어 주세요.
       // (힌트: phone.js 내에 존재하는 함수들을 사용해서 로직을 완성해 주시면 됩니다.
-      //  로직 구성이 어려우신 분들은 rest_api 폴더 내에 존재하는 index.js 파일을 참고해 주세요.)
+      //  로직 구성이 어려우신 분들은 rest_api 폴더 내에 존재하는 home.js 파일을 참고해 주세요.)
 
       // 2-1. 휴대폰번호 자릿수 맞는지 확인하기
       const isValid = checkValidationPhone(phoneNum);

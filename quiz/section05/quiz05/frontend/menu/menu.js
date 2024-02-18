@@ -1,7 +1,7 @@
 
 // 커피 목록 조회 API를 요청해주세요.
 const getCoffee = () => {
-  console.log("index.js 파일의 openMenu 함수 안에서 getCoffee가 실행 됨");
+  console.log("home.js 파일의 openMenu 함수 안에서 getCoffee가 실행 됨");
   // 1. 백엔드 서버로 /starbucks API 요청해 커피 데이터를 받는다.
   fetch("http://localhost:3000/starbucks")
     .then((response) => response.json())

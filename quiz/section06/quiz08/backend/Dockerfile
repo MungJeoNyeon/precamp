@@ -9,5 +9,5 @@ RUN yarn install
 
 COPY . /myfolder/
 
-# 3. 도커안에서 index.js 실행시키기
+# 3. 도커안에서 home.js 실행시키기
 CMD yarn dev

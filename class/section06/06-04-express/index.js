@@ -1,4 +1,4 @@
-// index.js
+// home.js
 
 // const express = require('express') // 옛날방식 => commonjs
 import express from 'express'         // 요즘방식 => module

@@ -1,4 +1,4 @@
-// index.js
+// home.js
 
 /**
 class Date{
@@ -18,9 +18,9 @@ console.log(aaa.getMonth() + 1);
 
 //         이러한 객체를 **`내장 객체`**라고 합니다.
 
-// index.js
+// home.js
 
-// index.js
+// home.js
 
 class Monster {
   power = 10;

@@ -9,7 +9,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./index.js:/myfolder/index.js
+      - ./home.js:/myfolder/home.js
       - ./email.js:/myfolder/email.js
     ports:
       - 4000:4000

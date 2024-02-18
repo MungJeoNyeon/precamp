@@ -6,7 +6,7 @@
     
     >  ls 
     
-    aaa.txt          Dockerfile          index.js            readme.md 
+    aaa.txt          Dockerfile          home.js            readme.md
     
 1. 이때, 도커 이미지를 build 하는 명령어는 무엇인가요?
     
@@ -55,7 +55,7 @@
     
     `3000`번 포트로 listen 하도록 소스코드를 작성하였습니다. 
     
-       [ 파일명: index.js ]
+       [ 파일명: home.js ]
     
        ...
     
@@ -89,7 +89,7 @@
     
 3. 위 2번에 이어서, 철수가 소스코드를 아래와 같이 수정했다면, 철수는 어떻게 도커를 실행해야 할까요?
     
-       [ 파일명: index.js ]
+       [ 파일명: home.js ]
     
        ...
     
@@ -113,7 +113,7 @@
     
     정답 >  docker exec -it 컨테이너ID /bin/bash
     
-2. vscode에서 `index.js`의 파일을 약간 수정하였습니다. 이때, 도커 내부의 파일도 수정이 될까요?
+2. vscode에서 `home.js`의 파일을 약간 수정하였습니다. 이때, 도커 내부의 파일도 수정이 될까요?
     
     정답 >  Dockerfile 설정을 하지 않았다면, 로컬에서 수정해도 Docker 내부 파일은 변경되지 않음. 컨테이너에 반영하려면 파일을 컨테이너에 복사하거나 새 이미지를 빌드해야 함.
     
@@ -137,7 +137,7 @@
     
        RUN yarn install
     
-       CMD node index.js
+       CMD node home.js
     
 
    [ 파일명: Dockerfile02 ]
@@ -154,7 +154,7 @@
 
    COPY ./my_backend/
 
-   CMD node index.js
+   CMD node home.js
 
 1. 두 도커 파일의 차이점은 무엇인가요?
     

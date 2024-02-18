@@ -1,4 +1,4 @@
-// index.js
+// home.js
 
 import express from "express";
 import { CouponController } from "./mvc/controllers/coupon.controller.js";

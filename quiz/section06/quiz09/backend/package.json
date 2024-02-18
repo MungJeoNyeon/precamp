@@ -1,11 +1,11 @@
 {
   "name": "quiz09",
   "version": "1.0.0",
-  "type": "module",
-  "main": "index.js",
+  "main": "home.js",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon index.js && echo 'dev executed successfully!'"
+    "dev": "nodemon home.js && echo 'dev executed successfully!'"
   },
   "dependencies": {
     "coolsms-node-sdk": "^2.0.1",

@@ -8,7 +8,7 @@ COPY . /myfolder/
 WORKDIR /myfolder/
 RUN yarn install
 
-# 3. 도커안에서 index.js 실행시키기
+# 3. 도커안에서 home.js 실행시키기
 CMD yarn start:dev
 
 # `FROM node:14` node가 설치되어 있는 리눅스 컴퓨터를 한대 만들고,

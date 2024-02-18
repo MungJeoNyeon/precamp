@@ -1,4 +1,4 @@
-// index.js
+// home.js
 
 class 공중부품 {
     run = () => {

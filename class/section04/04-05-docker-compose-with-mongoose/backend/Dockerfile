@@ -11,14 +11,14 @@ RUN yarn install
 
 COPY . /myfolder/
 
-# 3. 도커안에서 index.js 실행시키기
+# 3. 도커안에서 home.js 실행시키기
 CMD yarn start:dev
 
-# 만약에, `index.js` 파일의 소스코드를 일부 수정했다고 가정해봅시다. 
+# 만약에, `home.js` 파일의 소스코드를 일부 수정했다고 가정해봅시다.
 
 # 이 경우 `COPY . /myfolder/` 아래의 명령어들이 모두 새로 build되어 변경된 것이 없는 모든 모듈들 또한 `RUN yarn install` 명령어를 통해 다시 설치되게 됩니다.
 
-# `index.js` 파일만 수정했지, `package.json` 내용은 건드리지 않았는데
+# `home.js` 파일만 수정했지, `package.json` 내용은 건드리지 않았는데
 
 # 다시 설치를 모두 한다는게 매우 비효율적입니다.
 
