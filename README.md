@@ -7,9 +7,11 @@
 <img src="https://img.shields.io/badge/restapi-1DA456?style=for-the-badge&logo=rest&logoColor=white"/>
 </div>
 
-## 참고
-1. yarn init -> node_modules
-2. package.json 확인할 것
+## build
+1. yarn install
+2. yarn start:dev
+
+
 
 ## 주의 할 점
 1. 
