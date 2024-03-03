@@ -11,13 +11,10 @@
 1. yarn install
 2. yarn start:dev
 
-
-
 ## 주의 할 점
 1. 
 2. .env 파일을 제외시킨 점.
 
-## // .env
 ## coolsms, nodemailer 사용 
 SMS_KEY = 
 SMS_SECRET = 
